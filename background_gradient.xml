@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark base background -->
+    <item>
+        <color android:color="#101010" />
+    </item>
+
+    <!-- Optional background pattern/grid -->
+    <item>
+        <bitmap
+            android:src="@drawable/hacker_grid"
+            android:tileMode="repeat"
+            android:gravity="center" />
+    </item>
+
+    <!-- Overlay gradient for depth -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#1f1f1f"
+                android:endColor="#2c2c2c"
+                android:angle="90"/>
+        </shape>
+    </item>
+</layer-list>

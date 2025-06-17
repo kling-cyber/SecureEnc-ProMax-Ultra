@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/background_gradient"
+
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/chooseFileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose File"
+        android:textColor="#000"
+        android:background="@drawable/button_gradient"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/encryptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypt File"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/chooseFileButton"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_gradient" />
+
+    <Button
+        android:id="@+id/decryptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypt File"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@id/encryptButton"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_gradient" />
+
+</RelativeLayout>
